@@ -193,3 +193,85 @@ footer {
 .contact-item a:hover {
     text-decoration: underline;
 }
+
+/* Appointment Section */
+#appointment {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#appointment h3 {
+    font-size: 1.75rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+.appointment-steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.appointment-steps .step {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    flex: 1;
+    text-align: center;
+    margin: 0 0.2rem;
+}
+
+.appointment-steps .step.active {
+    background-color: #0073e6;
+    color: white;
+}
+
+.appointment-form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.appointment-form select,
+.appointment-form input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.days-checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.days-checkbox label {
+    display: inline-flex;
+    align-items: center;
+    color: #333;
+}
+
+.appointment-form button {
+    background-color: #0073e6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.appointment-form button:hover {
+    background-color: #005bb5;
+}
