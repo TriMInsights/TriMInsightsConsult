@@ -1,1 +1,1 @@
-# TriMInsightsConsult
+# TriM Insights Consult
