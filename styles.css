@@ -167,8 +167,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0073e6;
-    color: white;
+    background-color: #ADD8E6; /* Light blue background */
+    color: #333; /* Darker color for contrast */
     padding: 0.5rem;
     font-size: 0.9rem;
 }
@@ -176,20 +176,20 @@ footer {
 .contact-item {
     display: flex;
     align-items: center;
-    margin: 0 1rem;
+    margin: 0 1rem; /* Space between items */
 }
 
 .contact-item .icon {
     margin-right: 0.3rem;
-    font-size: 1.1rem; /* Adjust icon size */
+    font-size: 1.1rem; /* Icon size */
+    color: #0073e6; /* Blue color for icons */
 }
 
 .contact-item a {
-    color: white;
+    color: #0073e6; /* Blue color for links */
     text-decoration: none;
 }
 
 .contact-item a:hover {
     text-decoration: underline;
 }
-
