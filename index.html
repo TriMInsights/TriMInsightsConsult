@@ -132,4 +132,65 @@
 </body>
 </html>
 
+<section id="appointment">
+    <h3>Book Your Appointment</h3>
+    <div class="appointment-steps">
+        <div class="step">1. Service</div>
+        <div class="step">2. Time</div>
+        <div class="step">3. Details</div>
+        <div class="step">4. Payment</div>
+        <div class="step">5. Done</div>
+    </div>
+    
+    <form class="appointment-form">
+        <!-- Service Selection -->
+        <label for="service">Please select service:</label>
+        <select id="service" name="service">
+            <option value="">Select service</option>
+            <option value="consulting">Consulting</option>
+            <option value="training">Training</option>
+            <option value="assessment">Assessment</option>
+            <option value="research">Research</option>
+        </select>
+
+        <!-- Date Selection -->
+        <label for="available-date">I'm available on or after:</label>
+        <input type="date" id="available-date" name="available-date" value="2024-11-08">
+
+        <!-- Weekday Selection -->
+        <label for="weekday">Choose day(s):</label>
+        <div class="days-checkbox">
+            <input type="checkbox" id="mon" name="weekday" value="Monday">
+            <label for="mon">Mon</label>
+            <input type="checkbox" id="tue" name="weekday" value="Tuesday">
+            <label for="tue">Tue</label>
+            <input type="checkbox" id="wed" name="weekday" value="Wednesday">
+            <label for="wed">Wed</label>
+            <input type="checkbox" id="thu" name="weekday" value="Thursday">
+            <label for="thu">Thu</label>
+            <input type="checkbox" id="fri" name="weekday" value="Friday">
+            <label for="fri">Fri</label>
+        </div>
+
+        <!-- Time Selection -->
+        <label for="start-time">Start from:</label>
+        <select id="start-time" name="start-time">
+            <option value="8:00 am">8:00 am</option>
+            <option value="9:00 am">9:00 am</option>
+            <option value="10:00 am">10:00 am</option>
+            <option value="11:00 am">11:00 am</option>
+            <option value="12:00 pm">12:00 pm</option>
+        </select>
+
+        <label for="end-time">Finish by:</label>
+        <select id="end-time" name="end-time">
+            <option value="4:00 pm">4:00 pm</option>
+            <option value="5:00 pm">5:00 pm</option>
+            <option value="6:00 pm">6:00 pm</option>
+        </select>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Appointment</button>
+    </form>
+</section>
 
