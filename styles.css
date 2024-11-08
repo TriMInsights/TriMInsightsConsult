@@ -116,3 +116,48 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
+/* Mission, Vision, and Values Section */
+#mission-vision-values {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#mission-vision-values h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.section-part {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.section-part h4 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-bottom: 0.5rem;
+}
+
+.section-part p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.section-part ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section-part ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0.5rem 0;
+}
+
+.section-part ul li strong {
+    color: #0073e6;
+}
