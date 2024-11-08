@@ -161,3 +161,35 @@ footer {
 .section-part ul li strong {
     color: #0073e6;
 }
+
+/* Top Contact Bar */
+.top-contact-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0073e6;
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.contact-item .icon {
+    margin-right: 0.3rem;
+    font-size: 1.1rem; /* Adjust icon size */
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
