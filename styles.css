@@ -168,7 +168,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #ADD8E6; /* Light blue background */
-    color: #333; /* Darker color for contrast */
+    color: #333; /* Darker color for text */
     padding: 0.5rem;
     font-size: 0.9rem;
 }
@@ -176,7 +176,7 @@ footer {
 .contact-item {
     display: flex;
     align-items: center;
-    margin: 0 1rem; /* Space between items */
+    margin: 0 1.5rem; /* Space between items */
 }
 
 .contact-item .icon {
@@ -185,8 +185,8 @@ footer {
     color: #0073e6; /* Blue color for icons */
 }
 
-.contact-item a {
-    color: #0073e6; /* Blue color for links */
+.contact-item a, .contact-item span {
+    color: #0073e6; /* Blue color for links and text */
     text-decoration: none;
 }
 
